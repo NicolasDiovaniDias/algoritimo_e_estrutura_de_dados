@@ -9,6 +9,8 @@ class Carro:
     def incrementar(self, km):
         if km > 0:
             self.__kilometragem = km
+    def imprimir(self):
+        print(self)
     def __str__(self):
         txt = "modelo: "+self.modelo
         txt +="\nAno: "+str(self.ano)
