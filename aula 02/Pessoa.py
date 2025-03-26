@@ -12,4 +12,3 @@ class Pessoa:
         txt += "\nCidade: "+str(self.cidade)
         return txt
 pessoa1 = Pessoa('nicolas')
-pessoa1.__str__()
