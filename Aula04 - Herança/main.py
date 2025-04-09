@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication
 
-from TelaVeiculo import TelaVeiculo
+from TelaCategoria import TelaVeiculo
 from TelaCarro import TelaCarro
 
 app = QApplication( sys.argv )
